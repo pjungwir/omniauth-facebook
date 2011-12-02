@@ -30,7 +30,7 @@ module OmniAuth
           'name' => raw_info['name'],
           'first_name' => raw_info['first_name'],
           'last_name' => raw_info['last_name'],
-          'image' => "http://graph.facebook.com/#{uid}/picture?type=square",
+          'image' => "http://graph.facebook.com/#{uid}/picture?type=large",
           'description' => raw_info['bio'],
           'urls' => {
             'Facebook' => raw_info['link'],
